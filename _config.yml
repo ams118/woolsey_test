@@ -8,11 +8,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: https://www.lib.uidaho.edu
+url: https://ams118.github.io
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo/psychiana
+baseurl: /woolseytest
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder
+source-code: https://github.com/ams118/woolsey_test
 
 ##########
 # SITE SETTINGS
@@ -20,32 +20,32 @@ source-code: https://github.com/CollectionBuilder
 # title of site appears in banner
 title: Woolsey Fire Memory Project
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Photographs, videos, oral history recordings, and written accounts documenting the 2018 Woolsey Fire by members of the Malibu community.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s."  
+description: The Woolsey Fire Memory Project collects, preserves, and presents the history of the Woolsey Fire and its impact on our local community, with a focus on Malibu and Pepperdine University. The goals of this project are to help community members process and heal from this disastrous event by sharing their stories, and to preserve a record of the event for future generations.  
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: annaspeth
 # Organization branding
-organization-name: "Digital Initiatives, University of Idaho Library"
-organization-link: https://www.lib.uidaho.edu/digital/
-organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
-organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
+organization-name: Pepperdine University Libraries
+organization-link: https://pepperdine.contentdm.oclc.org/digital/
+organization-logo-banner: https://pepperdine.contentdm.oclc.org/customizations/global/images/pepperdine-libraries-digital-collections2.png
+organization-logo-nav: https://pepperdine.contentdm.oclc.org/customizations/global/images/pepperdine-libraries-digital-collections2.png
 
 
 ##########
 # COLLECTION SETTINGS
 #
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: demo_psychiana
+metadata: woolseycb
 # contentdm collection name, matches collection ID used by CDM
-cdm-collection-id: psychiana
+cdm-collection-id: /p15730coll30
 # CONTENTdm server url
-cdm-url: https://digital.lib.uidaho.edu
+cdm-url: https://cdm15730.contentdm.oclc.org
 # page generation settings 
 # "data" value must be the name of the metadata file (other values should be not be changed)
 page_gen:
-  - data: 'demo_psychiana'
+  - data: 'woolseycb'
     template: 'items'
     name: 'objectid'
     dir: 'items'
@@ -64,7 +64,7 @@ page_gen:
 # ROBOTS EXCLUDE
 #
 # set noindex to true if you do NOT want Google to index your site
-# noindex: true 
+noindex: true 
 
 ##########
 # BUILD SETTINGS 
