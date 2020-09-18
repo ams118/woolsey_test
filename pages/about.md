@@ -5,16 +5,14 @@ permalink: /about.html
 ---
 {% include feature/jumbotron.html %} 
 
-{% include feature/nav-menu.html sections="About the Collection Builder CDM Skin" %}
+## About this collection
 
-## About the Collection Builder CDM Skin
+The Woolsey Fire started on November 8, 2018, reaching Malibu in the early hours of November 9th. By the time it was contained nearly two weeks later, the fast-moving wildfire had burned 96,949 acres of land, destroyed 1,643 structures, and forced nearly 300,000 people to evacuate. The fire touched all of us in the community and continues to impact many of our everyday lives.
 
-This demo collection features items from the University of Idaho Library's [Psychiana Digital Collection](https://www.lib.uidaho.edu/digital/psychiana/), and is build using [CollectionBuilder-CONTENTdm](https://github.com/CollectionBuilder/collectionbuilder-contentdm).
+The Woolsey Fire Memory Project collects, preserves, and presents the history of the Woolsey Fire and its impact on our local community, with a focus on Malibu and Pepperdine University. The goals of this project are to help community members process and heal from this disastrous event by sharing their stories, and to preserve a record of the event for future generations.
 
-CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. 
-The demo collection features images, document pdfs, audio, and YouTube video items to demonstrate the range of possibilities using the CollectionBuilder visualizations.
+This digital collection includes photographs, videos, oral history recordings, and written accounts by members of the community who have generously shared their Woolsey stories with us. We are grateful to each of them.
 
-Psychiana was a "mail order" religion popular in the 1930s and 40s.
-Visit the full [Psychiana Digital Collection](https://www.lib.uidaho.edu/digital/psychiana/) (also built with a version of CollectionBuilder) or the [Frank B. Robinson Papers](http://archiveswest.orbiscascade.org/ark:/80444/xv97133/op=fstyle.aspx?t=k&q=psychiana) finding aid to learn more.
+[Archived websites related to the Woolsey Fire are also available.](https://archive-it.org/collections/11537)
 
 {% include feature/item-figure.html objectid="demo_psychiana554" width="75" %} 

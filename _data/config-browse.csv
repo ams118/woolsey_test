@@ -1,5 +1,5 @@
 field,display_name,btn,hidden
 location,,true
 date,,
-subject,,,hidden
+subject,,,true
 

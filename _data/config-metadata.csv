@@ -11,8 +11,8 @@ location,Location,true,,contentLocation
 latitude,Latitude
 longitude,Longitude
 source,Source
-identifier,Source Identifier
 type,Type,,DCTERMS.type
 format original,Format Original
 format,Format,,,encodingFormat
 rightsstatement,,,DCTERMS.rights,license
+objectid,File Name,,DCTERMS.identifier
